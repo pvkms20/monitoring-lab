@@ -5,8 +5,8 @@
     "name": "adklkbh",
     "namespace": "default",
     "uid": "b8ef1e9d-53a6-4f45-b5a4-d1343234a4ea",
-    "resourceVersion": "1795676824170005",
-    "generation": 9,
+    "resourceVersion": "1795678055869017",
+    "generation": 10,
     "creationTimestamp": "2026-11-26T06:43:24Z",
     "labels": {
       "grafana.app/deprecatedInternalID": "143817555693568"
@@ -15,7 +15,7 @@
       "grafana.app/createdBy": "user:dg5frvalupz40c",
       "grafana.app/saved-from-ui": "Grafana v13.3.2 (bd75498687)",
       "grafana.app/updatedBy": "user:dg5frvalupz40c",
-      "grafana.app/updatedTimestamp": "2026-11-26T07:07:04Z"
+      "grafana.app/updatedTimestamp": "2026-11-26T07:27:35Z"
     }
   },
   "spec": {
@@ -609,7 +609,8 @@
                     ]
                   },
                   "color": {
-                    "mode": "thresholds"
+                    "mode": "fixed",
+                    "fixedColor": "dark-green"
                   }
                 },
                 "overrides": []
